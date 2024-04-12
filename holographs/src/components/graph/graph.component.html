@@ -1,0 +1,10 @@
+<div id="controls" class="absolute top-0 left-0">
+    <button id="download" class="bg-black border-white text-white hover:bg-gray-700 py-2 px-4 rounded" (click)="download()">download</button>
+</div>
+<div id="graph-container" class="w-screen h-screen">
+    <div id="details" class="fixed bottom-0 left-0 p-4 w-full">
+            <input type="range" [min]=minYear [max]=maxYear [value]=currentYear step="1" class="w-full" id="yearSlider" (input)="updateYear($event)">
+        <p class="text-4xl text-white">{{ currentYear }}, {{ ego.firstname }} {{ ego.lastname }}</p>
+        <!-- download button -->
+    </div>
+</div>
