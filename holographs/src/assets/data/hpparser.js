@@ -58,7 +58,7 @@ async function loadGraphData() {
             d.source = characters.find(c => c.character === d.source).id;
             d.target = characters.find(c => c.character === d.target).id;
         });
-        const edges = edgesData.map(d => ({source: d.source, target: d.target, weight: +d.weight, year: i}));
+        const edges = edgesData.map(d => ({source: d.source, target: d.target, weight: +d.weight, year: i - 1}));
         graphs.push({year: i, nodes, edges});
     }
     return graphs;
