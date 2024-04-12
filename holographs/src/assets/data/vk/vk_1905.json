@@ -1,0 +1,5285 @@
+[
+    {
+        "id": "5",
+        "firstname": "Vassily",
+        "lastname": "Kandinsky",
+        "artistsExhibitedWithConnection": {
+            "edges": [
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges",
+                        "id": "329",
+                        "lastname": "Rouault"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jacques",
+                        "id": "7672",
+                        "lastname": "Wely"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Adolphe Ernest",
+                        "id": "5314",
+                        "lastname": "Gumery"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Marie Louis",
+                        "id": "2944",
+                        "lastname": "Sue"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ilma",
+                        "id": "2315",
+                        "lastname": "Graf-Dreyfus"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Gustave",
+                        "id": "7617",
+                        "lastname": "Rodin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Carlos",
+                        "id": "3387",
+                        "lastname": "Reymond"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jacques",
+                        "id": "7223",
+                        "lastname": "Nam"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ker-Xavier",
+                        "id": "331",
+                        "lastname": "Roussel"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Maurice Georges Adolphe",
+                        "id": "5311",
+                        "lastname": "Guéroult"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul",
+                        "id": "7241",
+                        "lastname": "Magne de la Croix"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Benoni-Auran",
+                        "id": "2450",
+                        "lastname": "Benoît"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Max",
+                        "id": "5306",
+                        "lastname": "Grimard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Marguerite van",
+                        "id": "7660",
+                        "lastname": "Bever de la Quintinie"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Eugène",
+                        "id": "56",
+                        "lastname": "Carrière"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Pierre",
+                        "id": "37",
+                        "lastname": "Bonnard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Adrien",
+                        "id": "7633",
+                        "lastname": "Schulz"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Cécile",
+                        "id": "5318",
+                        "lastname": "Hertz"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "John Peter",
+                        "id": "7625",
+                        "lastname": "Russell"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul",
+                        "id": "5349",
+                        "lastname": "Langlois"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Auguste-Victor",
+                        "id": "5279",
+                        "lastname": "Fabre"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri",
+                        "id": "7262",
+                        "lastname": "Barberis"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Darío de",
+                        "id": "6562",
+                        "lastname": "Regoyos"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Walfrid Joseph",
+                        "id": "5343",
+                        "lastname": "Kuhn-Régnier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Adolphe",
+                        "id": "2397",
+                        "lastname": "Albert"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Daniel",
+                        "id": "7663",
+                        "lastname": "Viau"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Pierre",
+                        "id": "4351",
+                        "lastname": "Bracquemond"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "André",
+                        "id": "7658",
+                        "lastname": "Turin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Pierre-Eugène",
+                        "id": "3308",
+                        "lastname": "Vibert"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edouard",
+                        "id": "6274",
+                        "lastname": "Saglio"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Octave",
+                        "id": "7666",
+                        "lastname": "Volant"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis",
+                        "id": "5331",
+                        "lastname": "Jourdan"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Emile",
+                        "id": "5330",
+                        "lastname": "Joseph-Rignault"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Marcel",
+                        "id": "5287",
+                        "lastname": "Fournier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Francis",
+                        "id": "300",
+                        "lastname": "Picabia"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jeanne Adèle",
+                        "id": "4368",
+                        "lastname": "Burdy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ricardo",
+                        "id": "3162",
+                        "lastname": "Florès"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Fernand",
+                        "id": "7604",
+                        "lastname": "Piet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Charles-Jean",
+                        "id": "2394",
+                        "lastname": "Agard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis",
+                        "id": "4418",
+                        "lastname": "Denis-Valvérane"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Samuel",
+                        "id": "1188",
+                        "lastname": "Halpert"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Albert",
+                        "id": "1809",
+                        "lastname": "André"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "André",
+                        "id": "7655",
+                        "lastname": "Triou"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Auguste André",
+                        "id": "7639",
+                        "lastname": "Silice"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Gabriel",
+                        "id": "7615",
+                        "lastname": "Roby"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis Claude",
+                        "id": "7598",
+                        "lastname": "Paviot"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Olga",
+                        "id": "7576",
+                        "lastname": "Metchnikoff"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edwin",
+                        "id": "5291",
+                        "lastname": "Gamble"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Erzsébet",
+                        "id": "1718",
+                        "lastname": "Szegfy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Elie",
+                        "id": "7597",
+                        "lastname": "Pavill"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Etienne",
+                        "id": "1732",
+                        "lastname": "Moreau-Nelaton"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Léonce Joseph V. de",
+                        "id": "5327",
+                        "lastname": "Joncières"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Gertude",
+                        "id": "7577",
+                        "lastname": "Milde"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Eugène-Antoine",
+                        "id": "3354",
+                        "lastname": "Durenne"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Emile",
+                        "id": "5840",
+                        "lastname": "Barau"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "George",
+                        "id": "1710",
+                        "lastname": "Morren"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Lisbeth",
+                        "id": "2322",
+                        "lastname": "Delvolvé-Carrière"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Richard",
+                        "id": "3154",
+                        "lastname": "Ranft"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Émile Alfred",
+                        "id": "5264",
+                        "lastname": "Dezaunay"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ethel",
+                        "id": "7629",
+                        "lastname": "Sands"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Camille-Auguste",
+                        "id": "7616",
+                        "lastname": "Roche"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "John",
+                        "id": "715",
+                        "lastname": "Lavery"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul Albert",
+                        "id": "5352",
+                        "lastname": "Laurens"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Lucien",
+                        "id": "5384",
+                        "lastname": "Pissarro"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "André Marie Paul Jacques",
+                        "id": "2405",
+                        "lastname": "Allard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul",
+                        "id": "7596",
+                        "lastname": "Paulin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Felix",
+                        "id": "6654",
+                        "lastname": "Borchardt"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean Michel Eugène Adrien",
+                        "id": "5312",
+                        "lastname": "Guiet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Emile-Arthur",
+                        "id": "5273",
+                        "lastname": "Duray"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Andor",
+                        "id": "4981",
+                        "lastname": "Székely"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Léon",
+                        "id": "4382",
+                        "lastname": "Cauvy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Judith",
+                        "id": "5332",
+                        "lastname": "Gérard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges-Olivier",
+                        "id": "87",
+                        "lastname": "Desvallières"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Béla",
+                        "id": "71",
+                        "lastname": "Czóbel"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Frederic",
+                        "id": "5267",
+                        "lastname": "Drésel"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Pierre",
+                        "id": "7669",
+                        "lastname": "Volot"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Pierre-Louis",
+                        "id": "7581",
+                        "lastname": "Moreau"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Léon Victor de la",
+                        "id": "7608",
+                        "lastname": "Quintinie"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Demetrius",
+                        "id": "5290",
+                        "lastname": "Galanis"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri",
+                        "id": "4357",
+                        "lastname": "Brochard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges",
+                        "id": "7727",
+                        "lastname": "Lambert"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Eugène",
+                        "id": "1730",
+                        "lastname": "Martel"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Charles",
+                        "id": "5294",
+                        "lastname": "Genty"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Berthe",
+                        "id": "4347",
+                        "lastname": "Bourgonnier-Claude"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis",
+                        "id": "6360",
+                        "lastname": "Abel-Truchet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Arsène",
+                        "id": "4384",
+                        "lastname": "Chabanian"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jacques",
+                        "id": "7653",
+                        "lastname": "Toupet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul François",
+                        "id": "7270",
+                        "lastname": "Berthoud"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Emilie",
+                        "id": "1958",
+                        "lastname": "Charmy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges Leon Ernest",
+                        "id": "1798",
+                        "lastname": "Buysse"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Eugène-Benjamin",
+                        "id": "7636",
+                        "lastname": "Selmy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri",
+                        "id": "5268",
+                        "lastname": "Dreyfus-Lemaitre"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges",
+                        "id": "2905",
+                        "lastname": "Bouche"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jules",
+                        "id": "4397",
+                        "lastname": "Contant"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges",
+                        "id": "2489",
+                        "lastname": "Bärwolf"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Frédéric Anselme",
+                        "id": "6773",
+                        "lastname": "Lottin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jules-Abel",
+                        "id": "5280",
+                        "lastname": "Faivre"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Charlotte",
+                        "id": "1170",
+                        "lastname": "Chauchet Guillere"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul",
+                        "id": "7240",
+                        "lastname": "Madelain"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges",
+                        "id": "5296",
+                        "lastname": "Bergès"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri",
+                        "id": "5317",
+                        "lastname": "Hélis"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alice",
+                        "id": "2256",
+                        "lastname": "Dannenberg"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "William Samuel",
+                        "id": "5320",
+                        "lastname": "Horton"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Joaquim",
+                        "id": "7646",
+                        "lastname": "Sunyer Miró"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Hans von",
+                        "id": "1646",
+                        "lastname": "Faber du Faur"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Eugène",
+                        "id": "2408",
+                        "lastname": "Alluaud"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri",
+                        "id": "4412",
+                        "lastname": "Delavallée"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jacques",
+                        "id": "408",
+                        "lastname": "Villon"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Odilon",
+                        "id": "316",
+                        "lastname": "Redon"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis-Marie",
+                        "id": "4419",
+                        "lastname": "Désiré-Lucas"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Pierre-André",
+                        "id": "7253",
+                        "lastname": "Andry-Farcy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "François de",
+                        "id": "7248",
+                        "lastname": "Marliave"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Suzanne",
+                        "id": "5289",
+                        "lastname": "Frémont"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "G.",
+                        "id": "7246",
+                        "lastname": "Margueritt"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Auguste",
+                        "id": "2924",
+                        "lastname": "Bréal"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Fernand",
+                        "id": "7612",
+                        "lastname": "Riblet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Marie-Paule",
+                        "id": "4376",
+                        "lastname": "Carpentier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis Daniel",
+                        "id": "7286",
+                        "lastname": "Bouchet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "\\N",
+                        "id": "5337",
+                        "lastname": "Kissling"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges",
+                        "id": "7674",
+                        "lastname": "Wybo"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Albert de",
+                        "id": "1720",
+                        "lastname": "Belleroche"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Judith",
+                        "id": "5338",
+                        "lastname": "Klausner"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Bertha",
+                        "id": "6665",
+                        "lastname": "Züricher"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Minnie",
+                        "id": "7590",
+                        "lastname": "Nelson"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Auguste",
+                        "id": "2441",
+                        "lastname": "Lepère"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis",
+                        "id": "395",
+                        "lastname": "Valtat"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "André",
+                        "id": "1721",
+                        "lastname": "Bourgeois"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Eugène Henri Alexandre",
+                        "id": "4393",
+                        "lastname": "Chigot"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Émile Georges",
+                        "id": "5298",
+                        "lastname": "Weiss"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean",
+                        "id": "311",
+                        "lastname": "Puy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "William Emile",
+                        "id": "2169",
+                        "lastname": "Schumacher"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges-Arthur",
+                        "id": "5324",
+                        "lastname": "Jacquin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edouard",
+                        "id": "4362",
+                        "lastname": "Brunel"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean Georges",
+                        "id": "5278",
+                        "lastname": "Cornélius"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Marie-Mela",
+                        "id": "7586",
+                        "lastname": "Muter"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul Louis",
+                        "id": "2474",
+                        "lastname": "Baignières"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Antonio",
+                        "id": "7237",
+                        "lastname": "Lozano Garcia"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Robert",
+                        "id": "7273",
+                        "lastname": "Besnard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ernest-Marie",
+                        "id": "5284",
+                        "lastname": "Herscher"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Marie-Paule",
+                        "id": "7635",
+                        "lastname": "Séailles"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Pierre-Léon",
+                        "id": "5274",
+                        "lastname": "Dusouchet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "\\N",
+                        "id": "1727",
+                        "lastname": "Hermann-Paul"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Isidre",
+                        "id": "285",
+                        "lastname": "Nonell"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jules Raymond",
+                        "id": "5341",
+                        "lastname": "Koenig"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Achille",
+                        "id": "7594",
+                        "lastname": "Ouvré"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Marie",
+                        "id": "7268",
+                        "lastname": "Bermond"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Siebe Johannes ten",
+                        "id": "2538",
+                        "lastname": "Cate"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Raymond Urbain Élie",
+                        "id": "7229",
+                        "lastname": "Lévi-Strauss"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Gabriel",
+                        "id": "3163",
+                        "lastname": "Rousseau"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jeanne",
+                        "id": "7626",
+                        "lastname": "Sainsère"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis André",
+                        "id": "7600",
+                        "lastname": "Périnet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Adolf",
+                        "id": "726",
+                        "lastname": "Robbi"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edmond-Marie",
+                        "id": "7606",
+                        "lastname": "Poullain"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Albert Joseph",
+                        "id": "5950",
+                        "lastname": "Franke"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Antonio Georges",
+                        "id": "6772",
+                        "lastname": "Lopisgich"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Raphael",
+                        "id": "7230",
+                        "lastname": "Lewisohn"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "André",
+                        "id": "7054",
+                        "lastname": "Ulmann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alexandre",
+                        "id": "7282",
+                        "lastname": "Bloch"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ferenc",
+                        "id": "7648",
+                        "lastname": "Szikszay"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri Justin",
+                        "id": "7249",
+                        "lastname": "Marret"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul",
+                        "id": "7661",
+                        "lastname": "Vernet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Elie",
+                        "id": "278",
+                        "lastname": "Nadelman"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Frédéric Samuel",
+                        "id": "2930",
+                        "lastname": "Cordey"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Gerald Festus",
+                        "id": "5336",
+                        "lastname": "Kelly"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Lucien",
+                        "id": "7252",
+                        "lastname": "Abrams"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Rudolf",
+                        "id": "222",
+                        "lastname": "Levy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Nicolae",
+                        "id": "5307",
+                        "lastname": "Gropeanu"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edmond",
+                        "id": "4386",
+                        "lastname": "Champon"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alfredo",
+                        "id": "7609",
+                        "lastname": "Ramos Martínez"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul Franz",
+                        "id": "7587",
+                        "lastname": "Namur"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Fernand",
+                        "id": "7657",
+                        "lastname": "Trufaut"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jacques",
+                        "id": "7668",
+                        "lastname": "Volot"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Armand",
+                        "id": "2907",
+                        "lastname": "Guillaumin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Marie Lucie",
+                        "id": "4399",
+                        "lastname": "Cornelius"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Lorand",
+                        "id": "4453",
+                        "lastname": "Zubriczky"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ernest Ponthier de",
+                        "id": "4385",
+                        "lastname": "Chamaillard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henry",
+                        "id": "5308",
+                        "lastname": "Grosjean"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Olga",
+                        "id": "1835",
+                        "lastname": "Boznańska"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "André",
+                        "id": "3389",
+                        "lastname": "Wilder"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Hans",
+                        "id": "3188",
+                        "lastname": "Emmenegger"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean Alfred",
+                        "id": "7272",
+                        "lastname": "Besnard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Roger",
+                        "id": "5262",
+                        "lastname": "Deverin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Charles",
+                        "id": "7599",
+                        "lastname": "Peccatte"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henry",
+                        "id": "2444",
+                        "lastname": "Moret"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Emile-Antoine",
+                        "id": "39",
+                        "lastname": "Bourdelle"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Raoul",
+                        "id": "7260",
+                        "lastname": "Bacard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis",
+                        "id": "7656",
+                        "lastname": "Triquigneaux"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean",
+                        "id": "5263",
+                        "lastname": "Deville"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis",
+                        "id": "4410",
+                        "lastname": "Degallaix"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edouard",
+                        "id": "4403",
+                        "lastname": "Crébassa"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Etienne Albert Eugène",
+                        "id": "5326",
+                        "lastname": "Joannon-Navier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Rene Camille Jean Juste",
+                        "id": "5333",
+                        "lastname": "Rene-Juste"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Daniel Putnam",
+                        "id": "1184",
+                        "lastname": "Brinley"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Maurice",
+                        "id": "378",
+                        "lastname": "Sterne"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges",
+                        "id": "4391",
+                        "lastname": "Chenard-Huché"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Albertine",
+                        "id": "7269",
+                        "lastname": "Bernouard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Raymond",
+                        "id": "7651",
+                        "lastname": "Thibesart"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Leon",
+                        "id": "5334",
+                        "lastname": "Kamir"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jules-Jean-Antoine",
+                        "id": "7263",
+                        "lastname": "Baric"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edmond",
+                        "id": "7225",
+                        "lastname": "Lempereur"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Bernard",
+                        "id": "1825",
+                        "lastname": "Naudin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul de",
+                        "id": "5350",
+                        "lastname": "Lapparent"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri",
+                        "id": "4360",
+                        "lastname": "Brugnot"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Axel",
+                        "id": "4671",
+                        "lastname": "Törneman"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jenny",
+                        "id": "1805",
+                        "lastname": "Montigny"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Nephtaly",
+                        "id": "7645",
+                        "lastname": "Sternberg-Davids"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Raoul",
+                        "id": "7575",
+                        "lastname": "Mercier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Andre",
+                        "id": "1788",
+                        "lastname": "Barbier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Francisco",
+                        "id": "5323",
+                        "lastname": "Iturrino"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Robert",
+                        "id": "4405",
+                        "lastname": "Deborne"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Pauline",
+                        "id": "2385",
+                        "lastname": "Adour"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Raoul",
+                        "id": "2434",
+                        "lastname": "Du Gardier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Robert",
+                        "id": "5271",
+                        "lastname": "Dupont"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Fernand",
+                        "id": "4408",
+                        "lastname": "Decoprez"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "J.",
+                        "id": "7618",
+                        "lastname": "Rosenberg"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ambrose",
+                        "id": "1940",
+                        "lastname": "Patterson"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Fernand",
+                        "id": "7588",
+                        "lastname": "Nathan"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Raymond",
+                        "id": "4387",
+                        "lastname": "Charmaison"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean",
+                        "id": "2908",
+                        "lastname": "Peské"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis-Pierre",
+                        "id": "7637",
+                        "lastname": "Sézille"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edouard",
+                        "id": "4364",
+                        "lastname": "Bryan"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Fredda",
+                        "id": "7239",
+                        "lastname": "MacDonald"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis",
+                        "id": "5302",
+                        "lastname": "Gonyn"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "\\N",
+                        "id": "7584",
+                        "lastname": "André-Morisset"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Theodore Earl",
+                        "id": "1954",
+                        "lastname": "Butler"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jeanne",
+                        "id": "7264",
+                        "lastname": "Baudot"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jacob-Edwin",
+                        "id": "5344",
+                        "lastname": "Kunz"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri",
+                        "id": "4381",
+                        "lastname": "Cat"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Simon Albert",
+                        "id": "3383",
+                        "lastname": "Bussy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean",
+                        "id": "5269",
+                        "lastname": "Duchemin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ludovic",
+                        "id": "3168",
+                        "lastname": "Vallée"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul de",
+                        "id": "1723",
+                        "lastname": "Castro"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henry A.",
+                        "id": "5309",
+                        "lastname": "Gsell"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Charles",
+                        "id": "5288",
+                        "lastname": "Fréchon"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Adolphe",
+                        "id": "5872",
+                        "lastname": "Boigegrain"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Victor Joseph",
+                        "id": "7624",
+                        "lastname": "Roux-Champion"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Margarethe E.",
+                        "id": "5316",
+                        "lastname": "Heisser"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jeanne",
+                        "id": "5293",
+                        "lastname": "Geloso"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Eugène",
+                        "id": "1881",
+                        "lastname": "Zak"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Adolphe",
+                        "id": "4400",
+                        "lastname": "Cossard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges",
+                        "id": "7611",
+                        "lastname": "Redon"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Maurice Louis Henri",
+                        "id": "7591",
+                        "lastname": "Neumont"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Walter Richard",
+                        "id": "360",
+                        "lastname": "Sickert"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Auguste Philippe",
+                        "id": "7749",
+                        "lastname": "Matisse"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean-Louis",
+                        "id": "7222",
+                        "lastname": "Lefort"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Guy-Pierre",
+                        "id": "5282",
+                        "lastname": "Fauconnet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Maurice",
+                        "id": "7247",
+                        "lastname": "Marinot"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henry Emile",
+                        "id": "7667",
+                        "lastname": "Vollet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Victor Ferdinand",
+                        "id": "2427",
+                        "lastname": "Bourgeois"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "\\N",
+                        "id": "5304",
+                        "lastname": "Grass Mick"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges Bertin",
+                        "id": "2993",
+                        "lastname": "Scott"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henriette",
+                        "id": "3166",
+                        "lastname": "Jeanniot"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Philip Eaton",
+                        "id": "7283",
+                        "lastname": "Bodington"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Gaston",
+                        "id": "7654",
+                        "lastname": "Toussaint"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Stéphanie Constance",
+                        "id": "7289",
+                        "lastname": "Bourdelle"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Eugène",
+                        "id": "4413",
+                        "lastname": "Delestre"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri",
+                        "id": "3072",
+                        "lastname": "Ottmann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Juan",
+                        "id": "4374",
+                        "lastname": "Cardona y Tío"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri",
+                        "id": "2966",
+                        "lastname": "Dabadie"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul",
+                        "id": "1814",
+                        "lastname": "Cirou"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Bernard",
+                        "id": "3158",
+                        "lastname": "Boutet de Monvel"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul",
+                        "id": "58",
+                        "lastname": "Cézanne"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Thomas",
+                        "id": "5325",
+                        "lastname": "Jean"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Robert Antoine",
+                        "id": "7605",
+                        "lastname": "Pinchon"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Albert",
+                        "id": "245",
+                        "lastname": "Marquet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Caesar",
+                        "id": "1337",
+                        "lastname": "Kunwald"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jules",
+                        "id": "2929",
+                        "lastname": "Chéret"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Benjamin",
+                        "id": "7662",
+                        "lastname": "Viau"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louise",
+                        "id": "1726",
+                        "lastname": "Galtier-Boissière"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean-Auguste-Dominique",
+                        "id": "1931",
+                        "lastname": "Ingres"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul-Michel",
+                        "id": "5272",
+                        "lastname": "Dupuy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "André",
+                        "id": "4415",
+                        "lastname": "Delpey"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jacqueline",
+                        "id": "2897",
+                        "lastname": "Marval"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henry",
+                        "id": "7244",
+                        "lastname": "Marceau"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "René-Charles-Louis",
+                        "id": "4406",
+                        "lastname": "Debraux"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Lajos",
+                        "id": "4708",
+                        "lastname": "Kúnffy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alfred",
+                        "id": "4390",
+                        "lastname": "Chatelain"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Adolphe",
+                        "id": "7673",
+                        "lastname": "Willette"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Adèle",
+                        "id": "5301",
+                        "lastname": "Gonyn de Lirieux"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Hubert",
+                        "id": "7232",
+                        "lastname": "Liebart"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edmond Anne Antoine",
+                        "id": "7649",
+                        "lastname": "Tapissier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Patrick Henry",
+                        "id": "44",
+                        "lastname": "Bruce"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Philippe Charles",
+                        "id": "7572",
+                        "lastname": "Martin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alice Dick",
+                        "id": "5265",
+                        "lastname": "Dumas"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean-Julien",
+                        "id": "4417",
+                        "lastname": "Denisse"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Auguste",
+                        "id": "5345",
+                        "lastname": "Labouret"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Adriaan Joseph",
+                        "id": "1803",
+                        "lastname": "Heymans"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "André",
+                        "id": "84",
+                        "lastname": "Derain"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ramon",
+                        "id": "3756",
+                        "lastname": "Pichot Gironès"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul",
+                        "id": "7620",
+                        "lastname": "Rossert"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Albert-Guillaume",
+                        "id": "5305",
+                        "lastname": "Grenier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Gaston",
+                        "id": "3179",
+                        "lastname": "Prunier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Cécile",
+                        "id": "4402",
+                        "lastname": "Contesco"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Stepan Petrovich",
+                        "id": "2057",
+                        "lastname": "Yaremich"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jacques Gaston Emile",
+                        "id": "7659",
+                        "lastname": "Vaillant"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Joachim von",
+                        "id": "3868",
+                        "lastname": "Bülow"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri Pierre",
+                        "id": "2983",
+                        "lastname": "Paillard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Marguerite",
+                        "id": "5300",
+                        "lastname": "Vallet-Gilliard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Gaston",
+                        "id": "7652",
+                        "lastname": "Thiesson"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Léonie",
+                        "id": "5295",
+                        "lastname": "Georges"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Maurice",
+                        "id": "7288",
+                        "lastname": "Boudot-Lamotte"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Francois de",
+                        "id": "4411",
+                        "lastname": "Hérain"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis",
+                        "id": "7641",
+                        "lastname": "Soek"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alfred",
+                        "id": "3386",
+                        "lastname": "Lombard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Frederick Charles Vipont",
+                        "id": "5275",
+                        "lastname": "Ede"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri",
+                        "id": "2433",
+                        "lastname": "Déziré"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Celestin Paul Rosemond",
+                        "id": "7258",
+                        "lastname": "Audra"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Pierre",
+                        "id": "7570",
+                        "lastname": "Martin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Leó",
+                        "id": "2365",
+                        "lastname": "Kóber"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Theodore Scott",
+                        "id": "7634",
+                        "lastname": "Dabo"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis-Marie-Augustin",
+                        "id": "2449",
+                        "lastname": "Auglay"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alfred Henry",
+                        "id": "251",
+                        "lastname": "Maurer"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "René",
+                        "id": "355",
+                        "lastname": "Seyssaud"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Maxwell",
+                        "id": "5627",
+                        "lastname": "Armfield"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Angèle",
+                        "id": "2432",
+                        "lastname": "Delasalle"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges Guillaume",
+                        "id": "1761",
+                        "lastname": "Roger"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean François",
+                        "id": "7275",
+                        "lastname": "Biette"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul",
+                        "id": "3053",
+                        "lastname": "Deltombe"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri Gabriel",
+                        "id": "3352",
+                        "lastname": "Ibels"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges-Raoul",
+                        "id": "5322",
+                        "lastname": "Illero"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean-Pierre",
+                        "id": "6769",
+                        "lastname": "Laurens"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jacques",
+                        "id": "3159",
+                        "lastname": "Brissaud"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Mathis",
+                        "id": "7603",
+                        "lastname": "Picard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Charles Alexandre",
+                        "id": "4186",
+                        "lastname": "Picart le Doux"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Mahonri Mackintosh",
+                        "id": "2219",
+                        "lastname": "Young"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis-Eugène",
+                        "id": "5283",
+                        "lastname": "Feine"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri [1873 Rouen]",
+                        "id": "7631",
+                        "lastname": "Sauvage"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "André",
+                        "id": "6339",
+                        "lastname": "Sureda"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul",
+                        "id": "7670",
+                        "lastname": "Vuibert"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Tancrede",
+                        "id": "7647",
+                        "lastname": "Synave"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis Pierre Lucien",
+                        "id": "7231",
+                        "lastname": "Leydet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Clémentine Hélène",
+                        "id": "2286",
+                        "lastname": "Dufau"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jacques",
+                        "id": "7671",
+                        "lastname": "Weismann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Marcel",
+                        "id": "5261",
+                        "lastname": "Deslignières"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Rodolphe",
+                        "id": "1792",
+                        "lastname": "Fornerod"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edmond Charles Théodore",
+                        "id": "3754",
+                        "lastname": "Milcendeau"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Maxime",
+                        "id": "1711",
+                        "lastname": "Maufra"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis",
+                        "id": "7578",
+                        "lastname": "Mion"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Pierre-Auguste",
+                        "id": "317",
+                        "lastname": "Renoir"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Victor",
+                        "id": "4389",
+                        "lastname": "Charreton"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean Louis Marcel",
+                        "id": "4401",
+                        "lastname": "Cosson"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alphonse",
+                        "id": "7593",
+                        "lastname": "Osbert"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edouard",
+                        "id": "7266",
+                        "lastname": "Benedictus"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Raymond Pierre",
+                        "id": "7613",
+                        "lastname": "Rivière"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "François-Étienne",
+                        "id": "5347",
+                        "lastname": "Lahaye"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Gustave",
+                        "id": "1712",
+                        "lastname": "Loiseau"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Mina",
+                        "id": "6845",
+                        "lastname": "Loy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Sibyl",
+                        "id": "7574",
+                        "lastname": "Meugens"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri Baptiste",
+                        "id": "3006",
+                        "lastname": "Lebasque"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis",
+                        "id": "242",
+                        "lastname": "Marcoussis"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alice",
+                        "id": "4026",
+                        "lastname": "Bailly"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis",
+                        "id": "7218",
+                        "lastname": "Le Bail"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Anna Hope",
+                        "id": "5321",
+                        "lastname": "Hudson"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "René",
+                        "id": "1826",
+                        "lastname": "Piot"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Rupert",
+                        "id": "4367",
+                        "lastname": "Bunny"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Frank Milton",
+                        "id": "7255",
+                        "lastname": "Armington"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Maxime",
+                        "id": "2458",
+                        "lastname": "Dethomas"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alexandre",
+                        "id": "4404",
+                        "lastname": "Cuvelier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paule",
+                        "id": "3050",
+                        "lastname": "Gobillard"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri",
+                        "id": "7619",
+                        "lastname": "Rosot"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Eugène",
+                        "id": "4348",
+                        "lastname": "Bourgouin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Paul Émile",
+                        "id": "7271",
+                        "lastname": "Berton"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Annie Cape",
+                        "id": "4396",
+                        "lastname": "Colthurst"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges Leopold",
+                        "id": "7579",
+                        "lastname": "Mita"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Albert",
+                        "id": "1810",
+                        "lastname": "Braut"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Lucien-Victor",
+                        "id": "5313",
+                        "lastname": "Guirand de Scévola"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "John",
+                        "id": "7267",
+                        "lastname": "Beresford"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Armand",
+                        "id": "2839",
+                        "lastname": "Rassenfosse"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges",
+                        "id": "7592",
+                        "lastname": "Oakley"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Charles-Edmond",
+                        "id": "5335",
+                        "lastname": "Kayser"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "William",
+                        "id": "2606",
+                        "lastname": "Degouve de Nuncques"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Charles",
+                        "id": "51",
+                        "lastname": "Camoin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Herbert Cyrus",
+                        "id": "5281",
+                        "lastname": "Farnum"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georgette",
+                        "id": "2396",
+                        "lastname": "Agutte"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Valdemar",
+                        "id": "5328",
+                        "lastname": "Jørgensen"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alphonse",
+                        "id": "7621",
+                        "lastname": "Roubichou"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Henri",
+                        "id": "7622",
+                        "lastname": "Roussel-Masure"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Hélène Sophie Emilie [Jelka]",
+                        "id": "2798",
+                        "lastname": "Rosen"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Marc Mlle.",
+                        "id": "7243",
+                        "lastname": "Mangin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis",
+                        "id": "4353",
+                        "lastname": "Braquaval"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Zdenka",
+                        "id": "4355",
+                        "lastname": "Braunerová"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edouard",
+                        "id": "236",
+                        "lastname": "Manet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Léon Félix Georges",
+                        "id": "7284",
+                        "lastname": "Bonhomme"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Albert Wilhelm",
+                        "id": "7221",
+                        "lastname": "Lefebre"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Edmond de",
+                        "id": "7595",
+                        "lastname": "Palézieux"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Octave",
+                        "id": "7234",
+                        "lastname": "Linet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ferdinand",
+                        "id": "4407",
+                        "lastname": "Deconchy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Mia",
+                        "id": "5276",
+                        "lastname": "Elen"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ulrich Wilhelm",
+                        "id": "3286",
+                        "lastname": "Züricher"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Victor",
+                        "id": "4359",
+                        "lastname": "Brugairolles"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Maurice",
+                        "id": "5277",
+                        "lastname": "Eliot"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Cécile",
+                        "id": "4383",
+                        "lastname": "Cavaillé-Coll"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Zygmunt",
+                        "id": "4363",
+                        "lastname": "Brunner"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Karl Edvard",
+                        "id": "89",
+                        "lastname": "Diriks"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges",
+                        "id": "6138",
+                        "lastname": "Marculescu"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Auguste Raphael",
+                        "id": "5286",
+                        "lastname": "Fountaine"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Georges",
+                        "id": "4409",
+                        "lastname": "Décote"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Maurice",
+                        "id": "7650",
+                        "lastname": "Taquoy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Marie",
+                        "id": "2970",
+                        "lastname": "Gautier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alexander Demetrius",
+                        "id": "2347",
+                        "lastname": "Goltz"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Sophie",
+                        "id": "954",
+                        "lastname": "Wolff"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "James Wilson",
+                        "id": "5582",
+                        "lastname": "Morrice"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Tristan",
+                        "id": "5340",
+                        "lastname": "Klingsor"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jean-François",
+                        "id": "1780",
+                        "lastname": "Raffaëlli"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Eveli",
+                        "id": "7582",
+                        "lastname": "Torent Marsans"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Albert Eugène",
+                        "id": "7219",
+                        "lastname": "Lechat"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Ulisse",
+                        "id": "4372",
+                        "lastname": "Caputo"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Louis Bidegaray",
+                        "id": "4414",
+                        "lastname": "Delfosse"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "T. Frantisek",
+                        "id": "3206",
+                        "lastname": "Simon"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Eugène",
+                        "id": "7285",
+                        "lastname": "Bosser"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Roderic",
+                        "id": "6561",
+                        "lastname": "O'Conor"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Fernand",
+                        "id": "5348",
+                        "lastname": "Lambert"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "René",
+                        "id": "7607",
+                        "lastname": "Prath"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Stephen",
+                        "id": "5315",
+                        "lastname": "Haweis"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jacques",
+                        "id": "2893",
+                        "lastname": "Drésa"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alexandre",
+                        "id": "3048",
+                        "lastname": "Urbain"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Alice Adèle",
+                        "id": "5339",
+                        "lastname": "Kleinmann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Théo",
+                        "id": "7602",
+                        "lastname": "Petit"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Emmanuel de",
+                        "id": "7665",
+                        "lastname": "La Villéon"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Jeanne",
+                        "id": "1725",
+                        "lastname": "Duranton"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "Salon d'Automne. 3e Exposition",
+                    "node": {
+                        "firstname": "Numa François",
+                        "id": "5299",
+                        "lastname": "Gillet"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Viktor",
+                        "id": "38",
+                        "lastname": "Borisov-Musatov"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Maria",
+                        "id": "3847",
+                        "lastname": "Chapchal (Berngof)"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "S. V.",
+                        "id": "3865",
+                        "lastname": "Dubrovsky"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Nikolay",
+                        "id": "338",
+                        "lastname": "Sapunov"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "A.",
+                        "id": "3858",
+                        "lastname": "Robinson"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Konstantin",
+                        "id": "1890",
+                        "lastname": "Kuznetsov"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "E. G.",
+                        "id": "3860",
+                        "lastname": "Tarasova"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Nikolai",
+                        "id": "3850",
+                        "lastname": "Zavyalov"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Vladimir Matveyevich",
+                        "id": "3866",
+                        "lastname": "Mayat"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Boris Nikolaevič",
+                        "id": "1895",
+                        "lastname": "Lipkin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Aleksander",
+                        "id": "3862",
+                        "lastname": "Shishov"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Aleksej Alekseevič",
+                        "id": "1917",
+                        "lastname": "Jasinskij"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Mikhail",
+                        "id": "1915",
+                        "lastname": "Shesterkin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "G.",
+                        "id": "3852",
+                        "lastname": "Kelin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "E. N.",
+                        "id": "1863",
+                        "lastname": "William"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Aleksandr Georgievich",
+                        "id": "1916",
+                        "lastname": "Yakimchenko"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Vasily Ivanovich",
+                        "id": "1873",
+                        "lastname": "Komarov"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "I. I.",
+                        "id": "3848",
+                        "lastname": "Gorelov"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Vasily",
+                        "id": "258",
+                        "lastname": "Milioti"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Martiros",
+                        "id": "339",
+                        "lastname": "Sarian"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Mikhail",
+                        "id": "415",
+                        "lastname": "Vrubel'"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Alexsey",
+                        "id": "273",
+                        "lastname": "Morgunov"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Konstantin",
+                        "id": "3853",
+                        "lastname": "Kostenko"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Ekaterina Vasilevna",
+                        "id": "1865",
+                        "lastname": "Goldinger"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Elena Vladimirovna",
+                        "id": "1859",
+                        "lastname": "Aleksandrova"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Vasilij Dmitrievič",
+                        "id": "3857",
+                        "lastname": "Polenov"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Alexander",
+                        "id": "2036",
+                        "lastname": "Seredin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "A. P.",
+                        "id": "1907",
+                        "lastname": "Tokarev"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Ivan Georgievic",
+                        "id": "1866",
+                        "lastname": "Gugunava"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Yakov",
+                        "id": "3851",
+                        "lastname": "Kalinichenko"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "D.",
+                        "id": "1862",
+                        "lastname": "Varapaev"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Sergey",
+                        "id": "380",
+                        "lastname": "Sudyekin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "G.",
+                        "id": "3849",
+                        "lastname": "Yefimov"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "D. N.",
+                        "id": "3859",
+                        "lastname": "Silin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Andrey",
+                        "id": "3788",
+                        "lastname": "Avinoff"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Michail Semenovič",
+                        "id": "1922",
+                        "lastname": "Pyrin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Mikhail",
+                        "id": "3846",
+                        "lastname": "Boskin"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "V. A.",
+                        "id": "1864",
+                        "lastname": "Galvich"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "K. I.",
+                        "id": "1896",
+                        "lastname": "Mikhailova"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Pavel",
+                        "id": "203",
+                        "lastname": "Kuznetsov"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Tatjana",
+                        "id": "2015",
+                        "lastname": "Lugowskaya"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Aleksey",
+                        "id": "3864",
+                        "lastname": "Shchusev"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "V. N.",
+                        "id": "3856",
+                        "lastname": "Olejnik"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "Fedor Ivanovich",
+                        "id": "1901",
+                        "lastname": "Rerberg"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "XII-я Выставка Картин Московскаго Т-ва Художников в Москве 1905 г.",
+                    "node": {
+                        "firstname": "N. D.",
+                        "id": "3855",
+                        "lastname": "Nekrasov"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Erich",
+                        "id": "451",
+                        "lastname": "Erler"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Gregor von, the elder",
+                        "id": "438",
+                        "lastname": "Bochmann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Rudolf",
+                        "id": "498",
+                        "lastname": "Nissl"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Hans von",
+                        "id": "467",
+                        "lastname": "Hayek"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Heinrich",
+                        "id": "475",
+                        "lastname": "Hübner"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Sabine",
+                        "id": "489",
+                        "lastname": "Lepsius"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Ludwig",
+                        "id": "448",
+                        "lastname": "Dill"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Paul",
+                        "id": "19",
+                        "lastname": "Baum"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Hans Richard von",
+                        "id": "584",
+                        "lastname": "Volkmann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Max",
+                        "id": "188",
+                        "lastname": "Klinger"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Toni von",
+                        "id": "515",
+                        "lastname": "Stadler"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Walter",
+                        "id": "487",
+                        "lastname": "Leistikow"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Karl",
+                        "id": "585",
+                        "lastname": "Walser"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Maria",
+                        "id": "512",
+                        "lastname": "Slavona"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Otto",
+                        "id": "472",
+                        "lastname": "Hettner"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Gustav",
+                        "id": "187",
+                        "lastname": "Klimt"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Otto",
+                        "id": "513",
+                        "lastname": "Sohn-Rethel"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Max",
+                        "id": "225",
+                        "lastname": "Liebermann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Käthe",
+                        "id": "192",
+                        "lastname": "Kollwitz"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Lovis",
+                        "id": "65",
+                        "lastname": "Corinth"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Von Diepold Leo",
+                        "id": "481",
+                        "lastname": "Klein"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Robert",
+                        "id": "474",
+                        "lastname": "Hoffmann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Robert von",
+                        "id": "466",
+                        "lastname": "Haug"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Eugen",
+                        "id": "514",
+                        "lastname": "Spiro"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Andreas",
+                        "id": "449",
+                        "lastname": "Dirks"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Alice",
+                        "id": "582",
+                        "lastname": "Trübner"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Walter",
+                        "id": "446",
+                        "lastname": "Conz"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Hans",
+                        "id": "433",
+                        "lastname": "Baluschek"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Konrad",
+                        "id": "454",
+                        "lastname": "Fehr"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Fritz",
+                        "id": "500",
+                        "lastname": "Overbeck"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Theodor",
+                        "id": "476",
+                        "lastname": "Hummel"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Thomas Theodor",
+                        "id": "468",
+                        "lastname": "Heine"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Gerhard",
+                        "id": "591",
+                        "lastname": "Janssen"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Hugo von",
+                        "id": "461",
+                        "lastname": "Habermann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Philipp",
+                        "id": "456",
+                        "lastname": "Franck"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Josef",
+                        "id": "437",
+                        "lastname": "Block"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Otto, the younger",
+                        "id": "506",
+                        "lastname": "Reiniger"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Rudolf",
+                        "id": "509",
+                        "lastname": "Riemerschmid"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Eva",
+                        "id": "576",
+                        "lastname": "Stort"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Bruno",
+                        "id": "495",
+                        "lastname": "Marquardt"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Theodor Joseph",
+                        "id": "462",
+                        "lastname": "Hagen"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Georg",
+                        "id": "510",
+                        "lastname": "Sauter"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Paul",
+                        "id": "482",
+                        "lastname": "Klimsch"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Robert",
+                        "id": "442",
+                        "lastname": "Breyer"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Theo von",
+                        "id": "443",
+                        "lastname": "Brockhusen"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Robert Ludwig",
+                        "id": "508",
+                        "lastname": "Richter"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Carl Ludwig Noah",
+                        "id": "434",
+                        "lastname": "Bantzer"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Philipp",
+                        "id": "480",
+                        "lastname": "Klein"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Leopold",
+                        "id": "477",
+                        "lastname": "Kalckreuth"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Joseph",
+                        "id": "447",
+                        "lastname": "Damberger"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Adolf",
+                        "id": "493",
+                        "lastname": "Luntz"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Hermann",
+                        "id": "502",
+                        "lastname": "Pleuer"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Robert Hermann",
+                        "id": "516",
+                        "lastname": "Sterl"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Konrad von",
+                        "id": "478",
+                        "lastname": "Kardorff"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Dora",
+                        "id": "473",
+                        "lastname": "Hitz"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Alexander",
+                        "id": "511",
+                        "lastname": "Schmidt-Michelsen"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Hans Beatus",
+                        "id": "587",
+                        "lastname": "Wieland"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Carl",
+                        "id": "496",
+                        "lastname": "Moll"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Richard",
+                        "id": "501",
+                        "lastname": "Pietzsch"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Franz",
+                        "id": "590",
+                        "lastname": "Christophe"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Fritz",
+                        "id": "450",
+                        "lastname": "Erler"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Helmuth",
+                        "id": "491",
+                        "lastname": "Liesegang"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Adolfo",
+                        "id": "490",
+                        "lastname": "Levier"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Emil Rudolf",
+                        "id": "586",
+                        "lastname": "Weiss"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Emil",
+                        "id": "503",
+                        "lastname": "Pottner"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Jacob",
+                        "id": "432",
+                        "lastname": "Alberts"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Otto",
+                        "id": "457",
+                        "lastname": "Friedrich"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Amandus",
+                        "id": "453",
+                        "lastname": "Faure"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Reinhold",
+                        "id": "488",
+                        "lastname": "Lepsius"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Franz von",
+                        "id": "412",
+                        "lastname": "Stuck"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Adolf",
+                        "id": "165",
+                        "lastname": "Hölzel"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Fritz",
+                        "id": "507",
+                        "lastname": "Rhein"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Wilhelm",
+                        "id": "445",
+                        "lastname": "Claudius"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Kurt",
+                        "id": "583",
+                        "lastname": "Tuch"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Benno",
+                        "id": "589",
+                        "lastname": "Becker"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Ernst",
+                        "id": "594",
+                        "lastname": "Stern"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Hans",
+                        "id": "441",
+                        "lastname": "Borchardt"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Max",
+                        "id": "485",
+                        "lastname": "Kurzweil"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Hermann",
+                        "id": "444",
+                        "lastname": "Bruck"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Gotthardt",
+                        "id": "484",
+                        "lastname": "Kuehl"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Julius",
+                        "id": "452",
+                        "lastname": "Exter"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Fritz von",
+                        "id": "413",
+                        "lastname": "Uhde"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Christian Adam",
+                        "id": "486",
+                        "lastname": "Landenberger"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Ernst",
+                        "id": "436",
+                        "lastname": "Bischoff-Culm"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Ernst",
+                        "id": "499",
+                        "lastname": "Oppler"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Carlos",
+                        "id": "459",
+                        "lastname": "Grethe"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "George",
+                        "id": "518",
+                        "lastname": "Mosson"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Hugo Friedrich",
+                        "id": "465",
+                        "lastname": "Hartmann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Ferdinand",
+                        "id": "164",
+                        "lastname": "Hodler"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Max",
+                        "id": "364",
+                        "lastname": "Slevogt"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Wilhelm",
+                        "id": "581",
+                        "lastname": "Trübner"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Rudolf",
+                        "id": "460",
+                        "lastname": "Gudden"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Fritz",
+                        "id": "494",
+                        "lastname": "Mackensen"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Curt",
+                        "id": "470",
+                        "lastname": "Herrmann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Max Arthur",
+                        "id": "578",
+                        "lastname": "Stremel"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Walther",
+                        "id": "440",
+                        "lastname": "Bondy"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Oskar",
+                        "id": "267",
+                        "lastname": "Moll"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Wilhelm Peter",
+                        "id": "435",
+                        "lastname": "Bayer"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Ulrich",
+                        "id": "517",
+                        "lastname": "Hübner"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Ludwig von",
+                        "id": "410",
+                        "lastname": "Hofmann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Erich",
+                        "id": "464",
+                        "lastname": "Hancke"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Hermine",
+                        "id": "469",
+                        "lastname": "Heller-Ostersetzer"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Heinrich",
+                        "id": "595",
+                        "lastname": "Zille"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Waldemar",
+                        "id": "593",
+                        "lastname": "Rösler"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Leo von",
+                        "id": "483",
+                        "lastname": "König"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Leo",
+                        "id": "309",
+                        "lastname": "Putz"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Albert von",
+                        "id": "479",
+                        "lastname": "Keller"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Charles",
+                        "id": "580",
+                        "lastname": "Tooby"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Adele von",
+                        "id": "455",
+                        "lastname": "Finck"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Karl",
+                        "id": "463",
+                        "lastname": "Haider"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Hermann",
+                        "id": "497",
+                        "lastname": "Münchhausen"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Julius",
+                        "id": "592",
+                        "lastname": "Klinger"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Hans",
+                        "id": "579",
+                        "lastname": "Thoma"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Heine",
+                        "id": "504",
+                        "lastname": "Rath"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Heinrich von",
+                        "id": "588",
+                        "lastname": "Zügel"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Carl",
+                        "id": "577",
+                        "lastname": "Strathmann"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Ernst",
+                        "id": "458",
+                        "lastname": "Gabler"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Fritz",
+                        "id": "471",
+                        "lastname": "Herzog"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Heinrich",
+                        "id": "505",
+                        "lastname": "Reifferscheid"
+                    }
+                },
+                {
+                    "startdate": "1905",
+                    "title": "2. Deutsche Künstlerbund Ausstellung",
+                    "node": {
+                        "firstname": "Heinrich Eduard",
+                        "id": "492",
+                        "lastname": "Linde-Walther"
+                    }
+                }
+            ]
+        }
+    }
+]
