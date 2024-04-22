@@ -43,9 +43,9 @@ export class GraphComponent implements OnInit {
     private previousNodeMap: Map<number, Node> = new Map<number, Node>();
     private nodeMap: Map<number, Node> = new Map<number, Node>();
 
-    private nodes: d3.Selection<SVGCircleElement, Node, any, unknown>;
-    private edges: d3.Selection<SVGLineElement, Edge, any, unknown>;
-    private labels: d3.Selection<SVGTextElement, Node, any, unknown>;
+    private nodes: d3.Selection<any, Node, any, unknown>;
+    private edges: d3.Selection<any, Edge, any, unknown>;
+    private labels: d3.Selection<any, Node, any, unknown>;
     private areaScale: d3.ScalePower<number, number> | undefined;
     private simulation: d3.Simulation<d3.SimulationNodeDatum, Edge> | undefined;
 
@@ -75,11 +75,11 @@ export class GraphComponent implements OnInit {
     loadGraphData(): void {
         this.http.get('../assets/data/hpgraphData.json').subscribe(data => {
             this.graphData = data as Array<GraphData>;
-            this.currentYear = this.graphData[0].year - 1;
+            this.currentYear = this.graphData[0].year - 1; // year starts from 1
             this.minYear = this.graphData[0].year - 1;
             this.maxYear = this.graphData[this.graphData.length - 1].year - 1;
 
-            // parse node ids and edge ids and weights to integers
+            // parse node ids and edge ids and weights to numbers
             this.graphData.forEach((d: GraphData) => {
                 d.year = +d.year;
                 d.nodes.forEach((n: Node) => {
@@ -136,6 +136,7 @@ export class GraphComponent implements OnInit {
                 });
             });
             this.layout();
+            this.update(this.currentYear);
         });
     }
 
@@ -144,7 +145,20 @@ export class GraphComponent implements OnInit {
         const width = document?.getElementById('graph-container')?.clientWidth || 800;
         const height = document?.getElementById('graph-container')?.clientHeight || 800;
 
-        this.areaScale = d3.scaleSqrt().domain([0, 100]).range([0, 50]);
+
+        // const width = 800;
+        // const height = 800;
+
+        this.simulation = d3.forceSimulation()
+            .force('charge', d3.forceManyBody().strength(-1000))
+            .force('link', d3.forceLink().id((d: any) => d.id).distance(300).strength(0.35))
+            .force('center', d3.forceCenter())
+            .force('collide', d3.forceCollide().radius(5))
+            .force('x', d3.forceX().strength(0.15))
+            .force('y', d3.forceY().strength(0.15))
+            .on('tick', this.ticked.bind(this));
+
+        // this.areaScale = d3.scaleSqrt().domain([0, 100]).range([0, 50]);
 
         // add zoom
         const zoom = d3.zoom()
@@ -154,141 +168,101 @@ export class GraphComponent implements OnInit {
             });
 
         const svg = d3.select('#graph-container').append('svg')
+            .attr('viewBox', [-width/2, -height/2, width, height])
             .attr('width', width)
             .attr('height', height)
             .call(zoom.bind(this));
 
         const g = svg
             .append('g')
-            .attr('id', 'graph')
+            .attr('id', 'graph');
 
-        // draw the edges
-        const edges = g.append('g')
-            .attr('class', 'edges');
 
-        this.edges = edges.selectAll('.edge')
-            .data(this.graphData[0].edges)
-            .enter()
-            .append('line')
-            .attr('class', 'edge')
-            .style('stroke', 'white')
-            .style('stroke-width', 2)
-            .attr('id', (l: Edge) => l.source + '-' + l.target);
+        this.edges = svg.append('g')
+            .attr('class', 'edges')
+            .selectAll('line');
 
-        const nodes = g.append('g')
-            .attr('class', 'nodes');
         // draw the nodes
-        this.nodes = nodes.selectAll('.node')
-            .data(this.graphData[0].nodes)
-            .enter()
-            .append('circle')
-            .attr('class', 'node')
-            .attr('r', (n: Node) => {
-                return this.areaScale?.(n.centrality || 0) || 0;
-            })
-            .attr('id', (n: Node) => n.id)
-            .attr('fill', 'black')
-            .attr('stroke', 'white')
-            .attr('stroke-width', 2);
+        this.nodes = svg.append('g')
+            .attr('class', 'nodes')
+            .selectAll('circle');
 
         // this.nodes.exit().remove();
-        const labels = g.append('g')
-            .attr('class', 'labels');
 
         // draw the labels
-        this.labels = labels.selectAll('.label')
-            .data(this.graphData[0].nodes)
-            .enter()
-            .append('text')
-            .attr('class', 'label')
-            .text((n: Node) => n.name ? n.name : n.firstname + ' ' + n.lastname)
-            .attr('fill', 'white');
-
-        this.simulation = d3.forceSimulation(Array.from(this.graphData[this.currentYear].nodes) as d3.SimulationNodeDatum[])
-            .force('link', d3.forceLink(Array.from(this.graphData[this.currentYear].edges)).id((d: any) => d.id).distance(400).strength(1))
-            .force('charge', d3.forceManyBody().strength(-300))
-            .force('center', d3.forceCenter(width / 2, height / 2).strength(0.05))
-            .force('collide', d3.forceCollide().radius((d: any) => this.areaScale?.(d.centrality || 0) || 0));
-
-        this.simulation.on('tick', this.ticked.bind(this));
+        this.labels = svg.append('g')
+            .attr('class', 'labels')
+            .selectAll('text');
     }
 
     private update(year: number) {
-        const nodes = this.nodes.data(Array.from(this.graphData[year].nodes))
-        this.nodes.exit().remove();
-        this.nodes.enter()
-            .append('circle')
+        const old = new Map(Array.from(this.nodes.data()).map((n: Node) => [n.id, n]));
+        
+        const newNodes = Array.from(this.graphData[year].nodes).map((n: Node) => {
+            return {...old.get(n.id), ...n};
+        });
+
+        const newEdges = Array.from(this.graphData[year].edges);
+        
+        this.nodes = this.nodes
+            .data(newNodes)
+            .join('circle')
             .attr('class', 'node')
             .attr('id', (n: Node) => n.id)
-            .attr('r', (n: Node) => {
-                return this.areaScale?.(n.centrality || 0) || 0;
-            })
-            .merge(nodes);
+            .attr('r', 5)
+            .attr('fill', 'black')
+            .attr('stroke', 'white');
+            // .attr('r', (n: Node) => {
+            //     return this.areaScale?.(n.centrality || 0) || 0;
+            // });
 
-        const edges = this.edges.data(Array.from(this.graphData[year].edges));
-        this.edges.exit().remove();
-        this.edges.enter()
-            .append('line')
+        // this.edges.exit().remove();
+        this.edges = this.edges
+            .data(newEdges)
+            .join('line')
             .attr('class', 'edge')
             .style('stroke', 'white')
             .style('stroke-width', 2)
-            .attr('id', (l: Edge) => l.source + '-' + l.target)
-            .merge(edges);
+            .style('stroke-opacity', 0.5)
+            .attr('id', (l: Edge) => l.source + '-' + l.target);
 
-        const labels = this.labels.data(Array.from(this.graphData[year].nodes));
-        this.labels.exit().remove();
-        this.labels.enter().append('text').attr('class', 'label').merge(labels);
+        // this.labels.exit().remove();
+        this.labels = this.labels
+            .data(newNodes)
+            .join('text')
+            .attr('class', 'label')
+            .text((n: Node) => n.name ? n.name : n.firstname + ' ' + n.lastname)
+            .attr('text-anchor', 'end')
+            .attr('alignment-baseline', 'baseline')
+            .attr('fill', 'white')
+            .attr('stroke', 'black')
+            .attr('stroke-width', 0.5);
 
-        this.simulation?.nodes(Array.from(this.graphData[year].nodes) as d3.SimulationNodeDatum[]);
-        (this.simulation?.force('link') as any).links(Array.from(this.graphData[year].edges));
+        this.simulation?.nodes(newNodes);
+        (this.simulation?.force('link') as any).links(newEdges);
 
-        this.simulation?.alpha(0.1).restart();
+        this.simulation?.alpha(1).restart();
     }
 
     private ticked(): void {
+        console.log('ticked');
         this.nodes
-            .attr('cx', (d: any) => {
-                const previousNode = this.previousNodeMap.get(d.id);
-                return previousNode?.x ? previousNode.x : d.x;
-            })
-            .attr('cy', (d: any) => {
-                const previousNode = this.previousNodeMap.get(d.id);
-                return previousNode?.y ? previousNode.y : d.y;
-            });
+            .attr('cx', (d: any) => d.x)
+            .attr('cy', (d: any) => d.y);
+            
         this.edges
-            .attr('x1', (d: any) => {
-                const previousNode = this.previousNodeMap.get(d.source.id);
-                return previousNode?.x ? previousNode.x : d.source.x;})
-            .attr('y1', (d: any) => {
-                const previousNode = this.previousNodeMap.get(d.source.id);
-                return previousNode?.y ? previousNode.y : d.source.y;
-            })
-            .attr('x2', (d: any) => {
-                const previousNode = this.previousNodeMap.get(d.target.id);
-                return previousNode?.x ? previousNode.x : d.target.x;
-            })
-            .attr('y2', (d: any) => {
-                const previousNode = this.previousNodeMap.get(d.target.id);
-                return previousNode?.y ? previousNode.y : d.target.y;
-            });
+            .attr('x1', (d: any) => d.source.x)
+            .attr('y1', (d: any) => d.source.y)
+            .attr('x2', (d: any) => d.target.x)
+            .attr('y2', (d: any) => d.target.y);
 
         this.labels
-            .attr('x', (d: any) => {
-                const previousNode = this.previousNodeMap.get(d.id);
-                return previousNode?.x ? previousNode.x : d.x;
-            })
-            .attr('y', (d: any) => {
-                const previousNode = this.previousNodeMap.get(d.id);
-                return previousNode?.y ? previousNode.y : d.y;
-            });
+            .attr('x', (d: any) => d.x - 5)
+            .attr('y', (d: any) => d.y + 5);
     }
 
     updateYear(event: any): void {
         this.currentYear = +event.target.value;
-        // get map of node positions from previous year 
-        const year = this.currentYear - 1 < this.minYear ? this.minYear : this.currentYear - 1;
-        this.previousNodeMap = new Map(Array.from(this.graphData[year].nodes).map((n: Node) => [n.id, n]));
-    
         this.update(this.currentYear);
     }
 
