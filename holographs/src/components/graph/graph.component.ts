@@ -119,6 +119,7 @@ export class GraphComponent implements OnInit {
             this.superGraph.nodes = new Set(Array.from(filteredNodes).map((n: number) => this.nodeMap.get(n) as Node));
             this.superGraph.edges = new Set(filteredEdges);
 
+            console.log('superGraph', this.superGraph);
 
             // from graph.nodes filter out ones that are not in superGraph.nodes
             this.graphData.forEach((d: GraphData) => {
@@ -150,10 +151,10 @@ export class GraphComponent implements OnInit {
         // const height = 800;
 
         this.simulation = d3.forceSimulation()
-            .force('charge', d3.forceManyBody().strength(-1000))
-            .force('link', d3.forceLink().id((d: any) => d.id).distance(300).strength(0.35))
+            .force('charge', d3.forceManyBody().strength(-900))
+            .force('link', d3.forceLink().id((d: any) => d.id).distance(250).strength(0.25))
             .force('center', d3.forceCenter())
-            .force('collide', d3.forceCollide().radius(5))
+            // .force('collide', d3.forceCollide().radius(5))
             .force('x', d3.forceX().strength(0.15))
             .force('y', d3.forceY().strength(0.15))
             .on('tick', this.ticked.bind(this));
@@ -196,6 +197,7 @@ export class GraphComponent implements OnInit {
     }
 
     private update(year: number) {
+        console.log('update', year);
         const old = new Map(Array.from(this.nodes.data()).map((n: Node) => [n.id, n]));
         
         const newNodes = Array.from(this.graphData[year].nodes).map((n: Node) => {
@@ -210,8 +212,8 @@ export class GraphComponent implements OnInit {
             .attr('class', 'node')
             .attr('id', (n: Node) => n.id)
             .attr('r', 5)
-            .attr('fill', 'black')
-            .attr('stroke', 'white');
+            .attr('fill', 'white')
+            .attr('stroke', 'black');
             // .attr('r', (n: Node) => {
             //     return this.areaScale?.(n.centrality || 0) || 0;
             // });
@@ -221,7 +223,7 @@ export class GraphComponent implements OnInit {
             .data(newEdges)
             .join('line')
             .attr('class', 'edge')
-            .style('stroke', 'white')
+            .style('stroke', 'black')
             .style('stroke-width', 2)
             .style('stroke-opacity', 0.5)
             .attr('id', (l: Edge) => l.source + '-' + l.target);
@@ -234,9 +236,10 @@ export class GraphComponent implements OnInit {
             .text((n: Node) => n.name ? n.name : n.firstname + ' ' + n.lastname)
             .attr('text-anchor', 'end')
             .attr('alignment-baseline', 'baseline')
-            .attr('fill', 'white')
+            .attr('fill', 'black')
             .attr('stroke', 'black')
-            .attr('stroke-width', 0.5);
+            .attr('stroke-width', 0.5)
+            .attr('opacity', 0);
 
         this.simulation?.nodes(newNodes);
         (this.simulation?.force('link') as any).links(newEdges);
@@ -245,7 +248,6 @@ export class GraphComponent implements OnInit {
     }
 
     private ticked(): void {
-        console.log('ticked');
         this.nodes
             .attr('cx', (d: any) => d.x)
             .attr('cy', (d: any) => d.y);
@@ -266,10 +268,57 @@ export class GraphComponent implements OnInit {
         this.update(this.currentYear);
     }
 
+    play(): void {
+        const interval = setInterval(() => {
+            this.currentYear++;
+            if (this.currentYear > this.maxYear) {
+                clearInterval(interval);
+            }
+            this.update(this.currentYear);
+        }, 1000);
+    }
+
+    downloadPNG(): void {
+        const svg = document.querySelector('svg');
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+
+        if (!svg) {
+            return;
+        }
+
+        const width = svg?.getAttribute('width') || 800;
+        const height = svg?.getAttribute('height') || 800;
+
+        canvas.width = +width;
+        canvas.height = +height;
+
+        const image = new Image();
+        const svgData = new XMLSerializer().serializeToString(svg as any);
+        const svgURL = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+        const url = URL.createObjectURL(svgURL);
+
+        image.onload = () => {
+            context?.drawImage(image, 0, 0);
+            const png = canvas.toDataURL('image/png');
+            const a = document.createElement('a');
+            a.download = 'graph.png';
+            a.href = png;
+            a.click();
+        };
+
+        image.src = url;
+    }
+
     download() {
         // download data as JSON
         // create array of nodes and edges per year from this.superGraph
-        const data = JSON.stringify(this.graphData[this.currentYear]);
+        const nodes = this.nodes.data();
+        const edges = this.edges.data();
+        const year = this.currentYear;
+
+        const graphData = { year: year, nodes: nodes, edges: edges };
+        const data = JSON.stringify(graphData);
 
         // const data = JSON.stringify(this.superGraph);
         const blob = new Blob([data], { type: 'application/json' });
