@@ -21,11 +21,7 @@ type Edge = {
     id: string;
 };
 
-type GraphData = {
-    year: number;
-    nodes: Array<Node>;
-    edges: Array<Edge>;
-};
+// type GraphData = { year: number, nodes : Array<Node>, edges: Array<Edge> } };
 
 type SuperGraph = {
     nodes: Set<Node>;
@@ -38,7 +34,7 @@ type SuperGraph = {
     styleUrls: ['./graph.component.scss']
 })
 export class GraphComponent implements OnInit {
-    private graphData: Array<GraphData> = new Array<GraphData>();
+    private graphData = new Map<number, { nodes: Array<Node>, edges: Array<Edge> }>();
     private superGraph: SuperGraph = { nodes: new Set<Node>(), edges: new Set<Edge>() };
     private previousNodeMap: Map<number, Node> = new Map<number, Node>();
     private nodeMap: Map<number, Node> = new Map<number, Node>();
@@ -60,8 +56,7 @@ export class GraphComponent implements OnInit {
     };
 
     constructor(private http: HttpClient) {
-        this.ego = { id: 0, firstname: 'Harry', lastname: 'Potter' };
-
+        this.ego = { id: 0, firstname: '', lastname: '' };
 
         this.nodes = d3.select('#graph-container').selectAll('circle.node');
         this.edges = d3.select('#graph-container').selectAll('line.edge');
@@ -73,72 +68,96 @@ export class GraphComponent implements OnInit {
     }
 
     loadGraphData(): void {
-        this.http.get('../assets/data/hpgraphData.json').subscribe(data => {
-            this.graphData = data as Array<GraphData>;
-            this.currentYear = this.graphData[0].year - 1; // year starts from 1
-            this.minYear = this.graphData[0].year - 1;
-            this.maxYear = this.graphData[this.graphData.length - 1].year - 1;
+        this.http.get('../assets/data/vk_EgoNet.json').subscribe((data: any) => {
+            this.ego = { id: data[0].aID, firstname: data[0].aFirstname, lastname: data[0].aLastname };
 
-            // parse node ids and edge ids and weights to numbers
-            this.graphData.forEach((d: GraphData) => {
-                d.year = +d.year;
-                d.nodes.forEach((n: Node) => {
-                    n.id = +n.id;
-                    this.nodeMap.set(n.id, n);
-                });
-                d.edges.forEach((e: Edge) => {
-                    e.source = +e.source;
-                    e.target = +e.target;
-                    e.weight = +e.weight;
-                    e.year = +e.year;
-                    e.id = e.source + '-' + e.target;
-                });
+            data.forEach((n: any) => {
+                // if n.time doesnt exist in graphData, create it
+                if (!this.graphData.has(n.time)) {
+                    this.graphData.set(n.time, { nodes: [], edges: [] });
+                }
+
+                // check if node exists
+                if(this.graphData.get(n.time)?.nodes.filter((node: Node) => node.id === n.aID).length === 0) {
+                    this.graphData.get(n.time)?.nodes.push({ id: n.aID, firstname: n.aFirstname, lastname: n.aLastname });
+                }
+
+                if(this.graphData.get(n.time)?.nodes.filter((node: Node) => node.id === n.bID).length === 0) {
+                    this.graphData.get(n.time)?.nodes.push({ id: n.bID, firstname: n.bFirstname, lastname: n.bLastname });
+                }
+
+                // check if edge exists
+                if(this.graphData.get(n.time)?.edges.filter((edge: Edge) => edge.id === n.aID + '-' + n.bID).length === 0) {
+                    this.graphData.get(n.time)?.edges.push({ source: n.aID, target: n.bID, weight: n.weight, year: n.year, id: n.aID + '-' + n.bID });
+                }
             });
 
-            // calculate degree centrality for each year
-            this.graphData.forEach((d: GraphData) => {
-                d.nodes.forEach((n: Node) => {
-                    const connections = d.edges.filter((e: Edge) => e.source === n.id || e.target === n.id).length;
-                    n.centrality = connections;
-                });
-            });
+            console.log('graphData', this.graphData);
 
-            // create distribution of edge weights per year
-            const edgeWeights = this.graphData.map((d: GraphData) => {
-                return d.edges.map((e: Edge) => e.weight);
-            });
+            this.currentYear = 1905;
+            this.minYear = 1905;
+            this.maxYear = 1915;
+
+            // // parse node ids and edge ids and weights to numbers
+            // this.graphData.forEach((d: GraphData) => {
+            //     d.year = +d.year;
+            //     d.nodes.forEach((n: Node) => {
+            //         n.id = +n.id;
+            //         this.nodeMap.set(n.id, n);
+            //     });
+            //     d.edges.forEach((e: Edge) => {
+            //         e.source = +e.source;
+            //         e.target = +e.target;
+            //         e.weight = +e.weight;
+            //         e.year = +e.year;
+            //         e.id = e.source + '-' + e.target;
+            //     });
+            // });
+
+            // // calculate degree centrality for each year
+            // this.graphData.forEach((d: GraphData) => {
+            //     d.nodes.forEach((n: Node) => {
+            //         const connections = d.edges.filter((e: Edge) => e.source === n.id || e.target === n.id).length;
+            //         n.centrality = connections;
+            //     });
+            // });
+
+            // // create distribution of edge weights per year
+            // const edgeWeights = this.graphData.map((d: GraphData) => {
+            //     return d.edges.map((e: Edge) => e.weight);
+            // });
 
             // flatten all edges from all years
-            const allEdges = this.graphData.flatMap((d: GraphData) => d.edges).slice();
+            // const allEdges = this.graphData.flatMap((d: GraphData) => d.edges).slice();
             // filter edges that are below the 90th percentile of edge weights
-            const filteredEdges = allEdges.filter((e: any) => e.weight >= (d3.quantile(edgeWeights.flat(), 0.9) || 0));
+            // const filteredEdges = allEdges.filter((e: any) => e.weight >= (d3.quantile(edgeWeights.flat(), 0.9) || 0));
 
-            const filteredNodes = new Set(filteredEdges.flatMap((e: Edge) => [e.source, e.target]));
+            // const filteredNodes = new Set(filteredEdges.flatMap((e: Edge) => [e.source, e.target]));
 
             // create a super graph
-            this.superGraph.nodes = new Set(Array.from(filteredNodes).map((n: number) => this.nodeMap.get(n) as Node));
-            this.superGraph.edges = new Set(filteredEdges);
+            // this.superGraph.nodes = new Set(Array.from(filteredNodes).map((n: number) => this.nodeMap.get(n) as Node));
+            // this.superGraph.edges = new Set(filteredEdges);
 
-            console.log('superGraph', this.superGraph);
+            // console.log('superGraph', this.superGraph);
 
-            // from graph.nodes filter out ones that are not in superGraph.nodes
-            this.graphData.forEach((d: GraphData) => {
-                d.nodes = d.nodes.filter((n: Node) => {
-                    // check if node exists in superGraph.nodes by id
-                    return Array.from(this.superGraph.nodes).map((n: Node) => n.id).includes(n.id);
-                });
-            });
+            // // from graph.nodes filter out ones that are not in superGraph.nodes
+            // this.graphData.forEach((d: GraphData) => {
+            //     d.nodes = d.nodes.filter((n: Node) => {
+            //         // check if node exists in superGraph.nodes by id
+            //         return Array.from(this.superGraph.nodes).map((n: Node) => n.id).includes(n.id);
+            //     });
+            // });
 
-            // filter out edges that are not in superGraph.edges
-            this.graphData.forEach((d: GraphData) => {
-                d.edges = d.edges.filter((e: Edge) => {
-                    // check if edge exists in superGraph.edges by source and target
-                    return Array.from(this.superGraph.edges).map((e: Edge) => e.source + '-' + e.target).includes(e.source + '-' + e.target);
-                });
-            });
+            // // filter out edges that are not in superGraph.edges
+            // this.graphData.forEach((d: GraphData) => {
+            //     d.edges = d.edges.filter((e: Edge) => {
+            //         // check if edge exists in superGraph.edges by source and target
+            //         return Array.from(this.superGraph.edges).map((e: Edge) => e.source + '-' + e.target).includes(e.source + '-' + e.target);
+            //     });
+            // });
             this.layout();
             this.update(this.currentYear);
-        });
+        })
     }
 
     layout(): void {
@@ -152,11 +171,11 @@ export class GraphComponent implements OnInit {
 
         this.simulation = d3.forceSimulation()
             .force('charge', d3.forceManyBody().strength(-900))
-            .force('link', d3.forceLink().id((d: any) => d.id).distance(250).strength(0.25))
+            .force('link', d3.forceLink().id((d: any) => d.id).distance(100).strength(0.1))
             .force('center', d3.forceCenter())
-            // .force('collide', d3.forceCollide().radius(5))
-            .force('x', d3.forceX().strength(0.15))
-            .force('y', d3.forceY().strength(0.15))
+            .force('collide', d3.forceCollide().radius(25))
+            .force('x', d3.forceX().strength(0.1))
+            .force('y', d3.forceY().strength(0.1))
             .on('tick', this.ticked.bind(this));
 
         // this.areaScale = d3.scaleSqrt().domain([0, 100]).range([0, 50]);
@@ -167,6 +186,9 @@ export class GraphComponent implements OnInit {
             .on('zoom', (event: any) => {
                 d3.selectAll('g').attr('transform', event.transform);
             });
+
+        const drag = d3.drag()
+
 
         const svg = d3.select('#graph-container').append('svg')
             .attr('viewBox', [-width/2, -height/2, width, height])
@@ -188,6 +210,8 @@ export class GraphComponent implements OnInit {
             .attr('class', 'nodes')
             .selectAll('circle');
 
+        this.nodes.selectAll('circle').call(drag.bind(this));
+
         // this.nodes.exit().remove();
 
         // draw the labels
@@ -196,52 +220,79 @@ export class GraphComponent implements OnInit {
             .selectAll('text');
     }
 
+    dragstarted(event: any, d: any) {
+        if (!event.active) this.simulation?.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    dragged(event: any, d: any) {
+        d.fx = event.x;
+        d.fy = event.y;
+    }
+
+    dragended(event: any, d: any) {
+        if (!event.active) this.simulation?.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+
+    }
+
     private update(year: number) {
         console.log('update', year);
-        const old = new Map(Array.from(this.nodes.data()).map((n: Node) => [n.id, n]));
         
-        const newNodes = Array.from(this.graphData[year].nodes).map((n: Node) => {
+        const old = new Map(Array.from(this.nodes.data()).map((n: Node) => [n.id, n]));
+    
+        const newNodes = this.graphData.get(year)?.nodes.map((n: Node) => {
             return {...old.get(n.id), ...n};
         });
 
-        const newEdges = Array.from(this.graphData[year].edges);
+        const newEdges = this.graphData.get(year)?.edges;
+
+        console.log(newNodes)
+        console.log(newEdges);
         
         this.nodes = this.nodes
-            .data(newNodes)
+            .data(newNodes || [])
             .join('circle')
             .attr('class', 'node')
             .attr('id', (n: Node) => n.id)
             .attr('r', 5)
             .attr('fill', 'white')
-            .attr('stroke', 'black');
+            .attr('stroke', 'black')
             // .attr('r', (n: Node) => {
             //     return this.areaScale?.(n.centrality || 0) || 0;
             // });
 
+
         // this.edges.exit().remove();
         this.edges = this.edges
-            .data(newEdges)
+            .data(newEdges || [])
             .join('line')
             .attr('class', 'edge')
-            .style('stroke', 'black')
+            .style('stroke', 'white')
             .style('stroke-width', 2)
             .style('stroke-opacity', 0.5)
             .attr('id', (l: Edge) => l.source + '-' + l.target);
 
         // this.labels.exit().remove();
         this.labels = this.labels
-            .data(newNodes)
+            .data(newNodes || [])
             .join('text')
             .attr('class', 'label')
-            .text((n: Node) => n.name ? n.name : n.firstname + ' ' + n.lastname)
+            .text((n: Node) => {
+                // abbreviate the name
+                const name = n.firstname?.substring(0,1) + '. ' + n.lastname;
+                return name;
+            })
             .attr('text-anchor', 'end')
             .attr('alignment-baseline', 'baseline')
-            .attr('fill', 'black')
-            .attr('stroke', 'black')
+            .attr('fill', 'white')
+            .attr('stroke', 'white')
             .attr('stroke-width', 0.5)
-            .attr('opacity', 0);
+            .attr('opacity', 1);
 
-        this.simulation?.nodes(newNodes);
+        this.simulation?.nodes(newNodes || []);
         (this.simulation?.force('link') as any).links(newEdges);
 
         this.simulation?.alpha(1).restart();
