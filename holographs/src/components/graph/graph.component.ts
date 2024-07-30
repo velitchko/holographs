@@ -92,7 +92,22 @@ export class GraphComponent implements OnInit {
                 }
             });
 
-            console.log('graphData', this.graphData);
+            // get unique set of edges for each year (no source-target AND target-source duplicates)
+            this.graphData.forEach((d: { nodes: Array<Node>, edges: Array<Edge> }) => {
+                const uniqueEdges = new Set<string>();
+                d.edges = d.edges.filter((e: Edge) => {
+                    const id = e.source + '-' + e.target;
+                    const idReverse = e.target + '-' + e.source;
+                    if (uniqueEdges.has(id) || uniqueEdges.has(idReverse)) {
+                        return false;
+                    }
+                    uniqueEdges.add(id);
+                    return true;
+                });
+            });
+
+            // sort graphData by keys
+            this.graphData = new Map([...this.graphData.entries()].sort((a, b) => a[0] - b[0]));
 
             this.currentYear = 1905;
             this.minYear = 1905;
@@ -115,13 +130,13 @@ export class GraphComponent implements OnInit {
             // });
 
             // // calculate degree centrality for each year
-            // this.graphData.forEach((d: GraphData) => {
-            //     d.nodes.forEach((n: Node) => {
-            //         const connections = d.edges.filter((e: Edge) => e.source === n.id || e.target === n.id).length;
-            //         n.centrality = connections;
-            //     });
-            // });
-
+            this.graphData.forEach((d) => {
+                d.nodes.forEach((n: Node) => {
+                    const connections = d.edges.filter((e: Edge) => e.source === n.id || e.target === n.id).length;
+                    n.centrality = connections;
+                });
+            });
+            console.log(this.graphData)
             // // create distribution of edge weights per year
             // const edgeWeights = this.graphData.map((d: GraphData) => {
             //     return d.edges.map((e: Edge) => e.weight);
